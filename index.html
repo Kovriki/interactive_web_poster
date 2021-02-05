@@ -2,22 +2,36 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>impress</title>
-    <link rel="stylesheet" href="stylesheets/style.css">
-    <link rel="shortcut icon" href="images/x-icon.ico" type="image/x-icon">
+    <title></title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  let rotate = 0;
+$(".quater").click(function(){rotate = rotate + 90;
+  $(this).css({"transform": "rotate("+rotate+"deg)"
+  });
+});
+})
+
+</script>
   </head>
   <body>
-<div class="star">
-  <div class="star_part four">  </div>
-  <div class="star_part two">  </div>
-  <div class="star_part three">  </div>
-  
-  <div class="star_part one">  </div>
+    <div class="box">
+    <div class="quater"></div>
+    <div class="quater"></div>
+    <div class="quater"></div>
+    <div class="quater"></div>
+    <div class="quater"></div>
 
-
-  </div>
-
-
-
+    <div class="box_1">
+    <div class="quater small "></div>
+    <div class="quater small "></div>
+    <div class="quater small "></div>
+    <div class="quater small "></div>
+    </div>
+    <div class="quater"></div>
+    <div class="quater"></div>
+    </div>
   </body>
 </html>
