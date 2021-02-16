@@ -1,13 +1,69 @@
+p{
+padding-top: 2vw;
+padding-left: 3vw;
+}
+.begin{
+width: 100%;
+height: 100%;
+display: grid;
+grid-template-columns: repeat(10, 1fr);
+grid-template-rows:  repeat(5, 1fr);
+}
+.head{
+  /* width: 50vw;
+  height: 10vw; */
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
 
+  background-color: black;
+  color: white;
+  font-family:OCRONEC;
+  font-size: 30px;
+}
+@font-face {
+  font-family: "OCRONEC";
+  src: url(OCRONEC_.OTF) format("TrueType");
+  font-style: normal;
+  font-weight: normal;
+  /* OCRONEC_.OTF */
+}
+/* @font-face {
+font-family: "RFDewiExtended-Semibold";
+src: url("../fonts/RFDewiExtended-Semibold.ttf") format("TrueType");
+font-style: normal;
+font-weight: normal;
+} */
 .quater{
-  width: 100px;
-  height: 100px;
-  border-radius: 100px 0 0 0;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 10vw 0 0 0;
   background-color: black;
   display: inline-grid;
   position: relative;
 }
-.box {
+.small_box{
+  width: 10vw;
+  height: 10vw;
+  display: grid;
+  grid-template-columns: 5vw 5vw;
+  grid-template-rows: 5vw 5vw;
+}
+.small {
+  width: 5vw;
+  height: 5vw;
+  display: inline-grid;
+  position: relative;
+}
+.transperent{
+  width: 10vw;
+  height: 10vw;
+  /* background-color: black; */
+  display: inline-grid;
+  position: relative;
+}
+/* .box {
   width: 100%;
   height: 100%;
   background-color: orange;
@@ -22,10 +78,4 @@
   display: grid;
   grid-template-columns: 50px 50px;
   grid-template-rows: 50px 50px;
-}
-.small {
-  width: 50px;
-  height: 50px;
-  display: inline-grid;
-  position: relative;
-}
+} */
