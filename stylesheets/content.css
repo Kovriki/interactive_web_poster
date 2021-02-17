@@ -2,12 +2,20 @@ p{
 padding-top: 2vw;
 padding-left: 3vw;
 }
+
 .begin{
 width: 100%;
 height: 100%;
 display: grid;
 grid-template-columns: repeat(10, 1fr);
 grid-template-rows:  repeat(5, 1fr);
+}
+.hidden{
+  transition: .2s;
+  opacity: 0;
+}
+.blocker{
+  display: none;
 }
 .head{
   /* width: 50vw;
