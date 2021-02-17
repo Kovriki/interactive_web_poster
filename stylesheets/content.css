@@ -40,12 +40,7 @@ grid-template-rows:  auto;
   font-weight: normal;
   /* OCRONEC_.OTF */
 }
-/* @font-face {
-font-family: "RFDewiExtended-Semibold";
-src: url("../fonts/RFDewiExtended-Semibold.ttf") format("TrueType");
-font-style: normal;
-font-weight: normal;
-} */
+
 .quater{
   width: 10vw;
   height: 10vw;
@@ -89,35 +84,14 @@ font-weight: normal;
 }
 .b_2 {
   grid-area: 3 / 9 / 5 / 11;
-
-  /* grid-column-start: 9;
-  grid-column-end: 11;
-  grid-row-start: 3;
-  grid-row-end: 5; */
 }
 .b_3 {
   grid-area: 3 / 7 / 5 / 9;
-
-  /* grid-column-start: 7;
-  grid-column-end: 9;
-  grid-row-start: 3;
-  grid-row-end: 5; */
 }
 .b_4 {
   grid-area: 1 / 9 / 3 /11;
+}
 
-  /* grid-column-start: 9;
-  grid-column-end: 11;
-  grid-row-start: 1;
-  grid-row-end: 3; */
-}
-.b_5 {
-  grid-area: 3 / 7 / 5 / 9;
-  /* grid-column-start: 7;
-  grid-column-end: 9;
-  grid-row-start: 3;
-  grid-row-end: 5; */
-}
 
 .footer{
   width: 100vw;
@@ -180,6 +154,40 @@ font-weight: normal;
 
   mask-type: alpha;
   -webkit-mask: url(https://raw.githubusercontent.com/Kovriki/interactive_web_poster/2a1dcc8b54ab0b3c49c348e5897e5a21c34135f3/images/disco_icon.svg)
+}
+
+.setka {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: blue; */
+  /* opacity: 0; */
+}
+
+.top_bar {
+  width: 100vw;
+  height: 6vw;
+  border-bottom: solid 5px black;
+}
+.btn_dalee{
+  width: 20vw;
+  height: 8vw;
+}
+.btn_dalee p {
+  font-family:OCRONEC;
+  font-size: 30px;
+  color: black;
+}
+.top_text{
+  width: 30vw;
+  height: 8vw;
+  font-family:OCRONEC;
+  font-size: 30px;
+  color: black;
+}
+.top_text p {
+  padding-top: 1.5vw;
+  padding-left: 3vw;
+
 }
 /* .box {
   width: 100%;
