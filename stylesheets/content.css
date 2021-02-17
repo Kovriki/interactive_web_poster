@@ -155,6 +155,32 @@ font-weight: normal;
   color: white;
   transition: .2s;
 }
+
+
+.info {
+  width: 5vw;
+  height: 5vw;
+  background-color: white;
+
+  position: absolute;
+  left: 2vw;
+
+  mask-type: alpha;
+  mask-size: no-repeat;
+  -webkit-mask: url(https://raw.githubusercontent.com/Kovriki/interactive_web_poster/2a1dcc8b54ab0b3c49c348e5897e5a21c34135f3/images/info_icon.svg)
+}
+
+.disco {
+  width: 5vw;
+  height: 5vw;
+  background-color: white;
+
+  position: absolute;
+  right: 2vw;
+
+  mask-type: alpha;
+  -webkit-mask: url(https://raw.githubusercontent.com/Kovriki/interactive_web_poster/2a1dcc8b54ab0b3c49c348e5897e5a21c34135f3/images/disco_icon.svg)
+}
 /* .box {
   width: 100%;
   height: 100%;
