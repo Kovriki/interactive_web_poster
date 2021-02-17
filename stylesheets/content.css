@@ -1,6 +1,7 @@
 p{
 padding-top: 2vw;
 padding-left: 3vw;
+
 }
 
 .begin{
@@ -8,7 +9,9 @@ width: 100%;
 height: 100%;
 display: grid;
 grid-template-columns: repeat(10, 1fr);
-grid-template-rows:  repeat(5, 1fr);
+/* grid-template-rows:  repeat(5, 1fr); */
+grid-template-rows:  auto;
+
 }
 .hidden{
   transition: .2s;
@@ -61,15 +64,93 @@ font-weight: normal;
 .small {
   width: 5vw;
   height: 5vw;
-  display: inline-grid;
-  position: relative;
 }
 .transperent{
-  width: 10vw;
-  height: 10vw;
-  /* background-color: black; */
-  display: inline-grid;
+  opacity: 0;
+}
+.big {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 20vw 0 0 0;
+}
+.b_1{
+  grid-area: 1 / 7 / 3 / 9  ;
+  /* grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 3; */
+}
+.b_2 {
+  grid-area: 3 / 9 / 5 / 11;
+
+  /* grid-column-start: 9;
+  grid-column-end: 11;
+  grid-row-start: 3;
+  grid-row-end: 5; */
+}
+.b_3 {
+  grid-area: 3 / 7 / 5 / 9;
+
+  /* grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 3;
+  grid-row-end: 5; */
+}
+.b_4 {
+  grid-area: 1 / 9 / 3 /11;
+
+  /* grid-column-start: 9;
+  grid-column-end: 11;
+  grid-row-start: 1;
+  grid-row-end: 3; */
+}
+.b_5 {
+  grid-area: 3 / 7 / 5 / 9;
+  /* grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 3;
+  grid-row-end: 5; */
+}
+/* .b_6 {
+  grid-area: 3 / 7 / 5 / 9;
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 3;
+  grid-row-end: 5; */
+}
+.footer{
+  width: 100vw;
+  height: 5vw;
+  background-color: black;
+  /* position: absolute;
+  bottom:0; */
   position: relative;
+  
+  display: inline-grid;
+  grid-column-start: 1;
+  grid-column-end: 11;
+}
+.btn {
+  width: 20vw;
+  height: 20vw;
+  /* background-color: orange; */
+  border: solid 5px black;
+  color: black;
+  border-radius: 20vw;
+  display: inline-grid;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  font-family: OCRONEC;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+  transition: .2s;
 }
 /* .box {
   width: 100%;
