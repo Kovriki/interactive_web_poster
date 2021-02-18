@@ -225,13 +225,15 @@ grid-template-rows:  auto;
   width: 12.5vw;
   height: 12.5vw;
   display: inline-grid;
+  background-color: #fff;
+
   border: solid 3px black;
   box-sizing: border-box;
   transition: .1s;
 }
 .container_2:hover .square_2 {
   background-color: black;
-  border-color: whyte;
+  border: solid 3px #000;
 
 }
 /* .container_2 on click s */
