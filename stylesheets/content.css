@@ -159,6 +159,9 @@ grid-template-rows:  auto;
 .setka {
   width: 100vw;
   height: 100vh;
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 6vw auto 3vw;
   /* background-color: blue; */
   /* opacity: 0; */
 }
@@ -167,34 +170,74 @@ grid-template-rows:  auto;
   width: 100vw;
   height: 6vw;
   border-bottom: solid 5px black;
+  display: inline-grid;
+  grid-area: 1 / 1 / 2 / 3;
+  justify-content: space-between;
 }
 .btn_dalee{
   width: 20vw;
-  height: 8vw;
+      height: 6vw;
+      /* display: inline-grid; */
+      grid-area: 1/2/2/3;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 6vw;
+      align-items: baseline;
 }
 .btn_dalee p {
   font-family:OCRONEC;
   font-size: 30px;
   color: black;
+  padding-top: 1.5vw;
+  padding-left: 3vw;
+  display: inline-grid;
 }
 .arrow{
-  width: 5vw;
-  height: 6vw;
-  background-image: url(images/arrow.svg);
-  justify-content: center;
+  width: auto;
+  height: au;
+  /* background-image: url(images/arrow.svg); */
+  background: url(images/arrow.svg);
+  display: inline-grid;
+  /* justify-content: center; */
 }
 .top_text{
   width: 100%;
-  height: auto;
+  height: 6vw;
   font-family:OCRONEC;
   font-size: 30px;
   color: black;
+  grid-area: 1 / 1 / 2 / 2;
 }
 .top_text p {
   padding-top: 1.5vw;
   padding-left: 3vw;
+}
+.conteiner_2 {
+  width: 25vw;
+  height: 25vw;
+  display: grid;
+  grid-template-columns: 12.5vw 12.5vw;
+  grid-template-rows: 12.5vw 12.5vw;
+  /* box-sizing: border-box; */
 
 }
+.square_2 {
+  width: 12.5vw;
+  height: 12.5vw;
+  display: inline-grid;
+  border: solid 3px black;
+  box-sizing: border-box;
+  transition: .1s;
+}
+.container_2:hover .square_2 {
+  background-color: black;
+  border-color: whyte;
+
+}
+/* .container_2 on click s */
+
+
+
 /* .box {
   width: 100%;
   height: 100%;
