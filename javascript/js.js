@@ -15,4 +15,9 @@ $(document).ready(function(){
 
 
 
+
+//   $(".conteiner_2").hover(function(){
+//     $(".square_2").css("background-color": "black");
+//     $(".square_2").css("border-color": "whyte");
+// });
 })
