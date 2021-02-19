@@ -10,7 +10,9 @@ $(document).ready(function(){
     setTimeout(function(){
       $(".begin").addClass("blocker");
       }, 300);
-      $(".setka").removeClass("blocker");
+      // $(".setka").removeClass("blocker");
+      $(".setka").css({"display":"grid"
+    });
   });
 
 
