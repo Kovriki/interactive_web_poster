@@ -20,9 +20,18 @@ $(document).ready(function(){
       $(".setka").css({"display":"grid",
       "grid-template-rows": "6vw auto 6vw"
     });
-
   });
 
+  $(".conteiner_2").click(function(){
+    $(".conteiner_2").toggleClass("container_fill")
+    $(".square_2").toggleClass("fill")
+
+  })
+  $(".conteiner_4").click(function(){
+    $(".conteiner_4").toggleClass("container_fill")
+    $(".square_4").toggleClass("fill")
+
+  })
 
 
 
