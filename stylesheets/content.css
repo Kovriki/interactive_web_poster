@@ -3,7 +3,10 @@ padding-top: 2vw;
 padding-left: 3vw;
 
 }
+html{
+  background-color: black;
 
+}
 .begin{
 width: 100vw;
 height: 100%;
@@ -11,6 +14,7 @@ display: grid;
 grid-template-columns: repeat(10, 1fr);
 /* grid-template-rows:  repeat(5, 1fr); */
 grid-template-rows:  auto;
+background-color: white;
 
 }
 .hidden{
@@ -144,10 +148,14 @@ grid-template-rows:  auto;
   mask-size: no-repeat;
 
 
+  mask-type: alpha;
+      -webkit-mask: url("https://raw.githubusercontent.com/Kovriki/interactive_web_poster/e1f721771111b252e273ba383fb3986c68458f16/images/disco_icon.svg");
+      mask: url("https://raw.githubusercontent.com/Kovriki/interactive_web_poster/e1f721771111b252e273ba383fb3986c68458f16/images/disco_icon.svg");
+/*
   -webkit-mask-image: url(https://raw.githubusercontent.com/Kovriki/interactive_web_poster/2a1dcc8b54ab0b3c49c348e5897e5a21c34135f3/images/info_icon.svg);
   -webkit-mask-position:center;
   -webkit-mask-size: contain;
-      -webkit-mask-type: luminance;
+      -webkit-mask-type: luminance; */
   /* -webkit-mask-type: alpha; */
 
 
@@ -177,12 +185,11 @@ grid-template-rows:  auto;
 .setka {
   width: 100vw;
   height: 100vh;
-  /* display: grid; */
-  grid-template-columns: 50vw 50vw;
-  grid-template-rows: 6vw auto 3vw;
-  /* background-color: blue; */
+
   /* opacity: 0; */
   display: none;
+  transition: .2s;
+  background-color: white;
 }
 
 .top_bar {
@@ -198,17 +205,17 @@ grid-template-rows:  auto;
       height: 6vw;
       /* display: inline-grid; */
       grid-area: 1/2/2/3;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 6vw;
-      align-items: baseline;
+      justify-content: center;
+      display: flex;
+      align-items: center;
 }
 .btn_dalee p {
   font-family:OCRONEC;
   font-size: 30px;
   color: black;
-  padding-top: 1.5vw;
-  padding-left: 3vw;
+  /* padding-top: 1.5vw; */
+  /* padding-left: 3vw; */
+  padding-right: 10px;
   display: inline-grid;
 }
 .arrow{
@@ -220,26 +227,27 @@ grid-template-rows:  auto;
   /* justify-content: center; */
 }
 .top_text{
-  width: 100%;
+  width: 20vw;
   height: 6vw;
-  font-family:OCRONEC;
+  font-family: OCRONEC;
   font-size: 30px;
   color: black;
-  grid-area: 1 / 1 / 2 / 2;
-}
-.top_text p {
-  padding-top: 1.5vw;
-  padding-left: 3vw;
+  display: flex;
+  /* grid-area: 1 / 1 / 2 / 2; */
+  justify-content: center;
+  align-items: center;
 }
 .conteiner_2 {
   width: 25vw;
   height: 25vw;
   display: grid;
+  /* grid-gap: 10px; */
   grid-template-columns: 12.5vw 12.5vw;
   grid-template-rows: 12.5vw 12.5vw;
   border-bottom: solid 3px black;
   border-right: solid 3px black;
   /* box-sizing: border-box; */
+  grid-area: 1 / 2 / 2 / 3;
 
 }
 .square_2 {
@@ -254,12 +262,83 @@ grid-template-rows:  auto;
   border-bottom: none;
   box-sizing: border-box;
   transition: .1s;
-}
-.container_2:hover .square_2 {
-  background-color: black;
-  border: solid 3px #000;
 
 }
+
+.conteiner_4 {
+  width: 25vw;
+  height: 25vw;
+  display: grid;
+  /* grid-gap: 10px; */
+  grid-template-columns: 6.25vw 6.25vw 6.25vw 6.25vw;
+  grid-template-rows: 6.25vw 6.25vw 6.25vw 6.25vw;
+  border-bottom: solid 3px black;
+  border-right: solid 3px black;
+  /* box-sizing: border-box; */
+
+
+grid-area: 1 / 4 / 2 /5;
+
+
+}
+.square_4 {
+  width: 6.25vw;
+  height: 6.25vw;
+  display: inline-grid;
+  background-color: #fff;
+  border-style: solid;
+  border: solid 3px  black;
+
+  border-right: none;
+  border-bottom: none;
+  box-sizing: border-box;
+  transition: .1s;
+}
+
+
+.center_gap{
+  width: 100vw;
+  height: auto;
+/* display: flex;
+justify-content: space-evenly;
+align-items: center; */
+align-content: center;
+
+display: grid;
+
+grid-template-columns: 18vw 25vw 14vw 25vw 18vw;
+/* grid-template-rows: auto; */
+
+}
+.conteiner_2:hover .square_2 {
+  background-color: black;
+  border: solid 3px white;
+  border-right: none;
+  border-bottom: none;
+}
+.conteiner_4:hover .square_4 {
+  background-color: black;
+  color: white;
+  border: solid 3px white;
+  border-right: none;
+  border-bottom: none;
+  transition: .2s;
+}
+.conteiner_2:hover, .conteiner_4:hover {
+  border-right: 3px white;
+  border-bottom: 3px white;
+}
+
+.footer_2p{
+  width: 100vw;
+  height: 100px;
+  border-top: solid 3px black;
+  grid-area: 3/1/4/2;
+  display: inline-grid;
+  /* grid-area: 1 */
+  position: relative;
+}
+
 /* .container_2 on click s */
 
 
