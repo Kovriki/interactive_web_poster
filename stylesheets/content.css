@@ -368,6 +368,21 @@ grid-template-columns: 18vw 25vw 14vw 25vw 18vw;
 }
 
 
+.center_gap_3p{
+  width: 100vw;
+  height: auto;
+align-content: center;
+}
+
+
+.redactor_div {
+  width: 40vw;
+  height: 40vw;
+  display: inline-grid;
+  border: solid 3px black;
+  background-color: #fff;
+}
+
 /* .box {
   width: 100%;
   height: 100%;
