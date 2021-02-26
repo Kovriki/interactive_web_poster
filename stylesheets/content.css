@@ -338,7 +338,18 @@ grid-template-columns: 18vw 25vw 14vw 25vw 18vw;
   /* grid-area: 1 */
   position: relative;
 }
-
+.container_fill{
+  border-right: 3px white;
+  border-bottom: 3px white;
+}
+.fill{
+  background-color: black;
+  color: white;
+  border: solid 3px white;
+  border-right: none;
+  border-bottom: none;
+  transition: .2s;
+}
 /* .container_2 on click s */
 
 
