@@ -218,6 +218,11 @@ background-color: white;
   padding-right: 10px;
   display: inline-grid;
 }
+.btn_dalee:hover{
+  background-color: black;
+  color: white
+}
+
 .arrow{
   width: auto;
   height: au;
@@ -355,8 +360,11 @@ grid-template-columns: 18vw 25vw 14vw 25vw 18vw;
   width: 100vw;
   height: 100vh;
   /* opacity: 0; */
-  display: none;
+  /* display: none; */
   transition: .2s;
+  /* position: absolute; */
+  /* top: 0; */
+  /* display: block; */
 }
 
 
