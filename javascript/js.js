@@ -30,7 +30,10 @@ $(document).ready(function(){
   $(".conteiner_4").click(function(){
     $(".conteiner_4").toggleClass("container_fill")
     $(".square_4").toggleClass("fill")
+  })
 
+  $(".btn_dalee").click(function(){
+    $(".setka").addClass("")
   })
 
 
