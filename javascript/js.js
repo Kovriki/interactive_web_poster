@@ -10,9 +10,17 @@ $(document).ready(function(){
     setTimeout(function(){
       $(".begin").addClass("blocker");
       }, 300);
+
+      setTimeout(function(){
+        $(".setka").removeClass("blocker, hidden");
+      }, 400);
+      // $(document).css({"background":"white"})
+
       // $(".setka").removeClass("blocker");
-      $(".setka").css({"display":"grid"
+      $(".setka").css({"display":"grid",
+      "grid-template-rows": "6vw auto 6vw"
     });
+
   });
 
 
