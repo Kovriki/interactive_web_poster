@@ -1,8 +1,8 @@
-function skip (){
-  $(document).ready(function(){
-
-
-}
+// function skip (){
+//   $(document).ready(function(){
+//
+//
+// }
 
 $(document).ready(function(){
 
