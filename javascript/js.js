@@ -5,16 +5,12 @@
 // }
 
 $(document).ready(function(){
-
-
-
-
   let rotate = 0;
   $(".quater, .red_square").click(function(){
     rotate += 90;
   $(this).css({"transform": "rotate("+rotate+"deg)"
     });
-  if rotate == 360
+  // if rotate == 360
   });
 
   $(".btn").click(function(){
