@@ -1,8 +1,20 @@
+function skip (){
+  $(document).ready(function(){
+
+
+}
+
 $(document).ready(function(){
+
+
+
+
   let rotate = 0;
-  $(".quater").click(function(){rotate += 90;
+  $(".quater, .red_square").click(function(){
+    rotate += 90;
   $(this).css({"transform": "rotate("+rotate+"deg)"
     });
+  if rotate == 360
   });
 
   $(".btn").click(function(){
@@ -30,13 +42,16 @@ $(document).ready(function(){
     $(".square_4").toggleClass("fill")
   })
 
-
+//объявляем count = '0'
+// после клика на контейнер2 или контейнер4
+// count+=1
 //
 
 $(".btn_dalee").click(function(){
   $(".setka").addClass("hidden")
   setTimeout(function(){
     $(".setka").addClass("blocker");
+    $(".setka").css("display","none");
     }, 300);
 
     setTimeout(function(){
