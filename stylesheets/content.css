@@ -372,6 +372,7 @@ grid-template-columns: 18vw 25vw 14vw 25vw 18vw;
   width: 100vw;
   height: auto;
 align-content: center;
+justify-content: center;
 }
 
 
@@ -383,6 +384,9 @@ align-content: center;
   background-color: #fff;
 }
 
+.red_square{
+
+}
 /* .box {
   width: 100%;
   height: 100%;
