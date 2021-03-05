@@ -1,7 +1,6 @@
 // function skip (){
 //   $(document).ready(function(){
-//
-//
+// $('.begin, .setka').css('display','none')
 // }
 
 $(document).ready(function(){
@@ -10,7 +9,7 @@ $(document).ready(function(){
     rotate += 90;
   $(this).css({"transform": "rotate("+rotate+"deg)"
     });
-  // if rotate == 360
+    if rotate == 360
   });
 
   $(".btn").click(function(){
@@ -22,9 +21,7 @@ $(document).ready(function(){
       setTimeout(function(){
         $(".setka").removeClass("blocker, hidden");
       }, 400);
-      // $(document).css({"background":"white"})
 
-      // $(".setka").removeClass("blocker");
       $(".setka").css({"display":"grid",
       "grid-template-rows": "6vw auto 6vw"
     });
@@ -37,11 +34,6 @@ $(document).ready(function(){
     $(".conteiner_4").toggleClass("container_fill")
     $(".square_4").toggleClass("fill")
   })
-
-//объявляем count = '0'
-// после клика на контейнер2 или контейнер4
-// count+=1
-//
 
 $(".btn_dalee").click(function(){
   $(".setka").addClass("hidden")
@@ -56,8 +48,5 @@ $(".btn_dalee").click(function(){
     }, 400);
 
 });
-//   $(".conteiner_2").hover(function(){
-//     $(".square_2").css("background-color": "black");
-//     $(".square_2").css("border-color": "whyte");
-// });
+
 })
