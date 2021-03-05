@@ -32,32 +32,19 @@ $(document).ready(function(){
 
 
 
-  // $(".conteiner_2").click(function(){
-  //   $(".conteiner_2").toggleClass("container_fill")
-  //   $(".square_2").toggleClass("fill")
-  // })
-  // $(".conteiner_4").click(function(){
-  //   $(".conteiner_4").toggleClass("container_fill")
-  //   $(".square_4").toggleClass("fill")
-  // })
-  //
-
-
-if ('').hasClass('se'){
-
-}
-
-
-if ($('conteiner_2').hasClass('container_fill')){
-  $(".conteiner_4").click(function(){
-    $(".conteiner_4").toggleClass("space")
-    $(".square_2").toggleClass("space")
-
-
   $(".conteiner_2").click(function(){
-   $(".conteiner_2").toggleClass("space")
-   $(".square_2").toggleClass("space")
-}
+    $(".conteiner_2").toggleClass("container_fill")
+    $(".square_2").toggleClass("fill")
+    $(".conteiner_4").removeClass("container_fill")
+    $(".square_4").removeClass("fill")
+  })
+  $(".conteiner_4").click(function(){
+    $(".conteiner_4").toggleClass("container_fill")
+    $(".square_4").toggleClass("fill")
+      $(".conteiner_2").removeClass("container_fill")
+      $(".square_2").removeClass("fill")
+  })
+
 
 
 
