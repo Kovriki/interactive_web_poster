@@ -9,8 +9,11 @@ $(document).ready(function(){
     rotate += 90;
   $(this).css({"transform": "rotate("+rotate+"deg)"
     });
-    if rotate == 360
+    if (rotate == 360){rotate = 0};
   });
+
+  // if (eq1 && eq4) {
+  //         $('#img3').css('opacity', '1');
 
   $(".btn").click(function(){
     $(".begin").addClass("hidden")
@@ -26,14 +29,40 @@ $(document).ready(function(){
       "grid-template-rows": "6vw auto 6vw"
     });
   });
-  $(".conteiner_2").click(function(){
-    $(".conteiner_2").toggleClass("container_fill")
-    $(".square_2").toggleClass("fill")
-  })
+
+
+
+  // $(".conteiner_2").click(function(){
+  //   $(".conteiner_2").toggleClass("container_fill")
+  //   $(".square_2").toggleClass("fill")
+  // })
+  // $(".conteiner_4").click(function(){
+  //   $(".conteiner_4").toggleClass("container_fill")
+  //   $(".square_4").toggleClass("fill")
+  // })
+  //
+
+
+if ('').hasClass('se'){
+
+}
+
+
+if ($('conteiner_2').hasClass('container_fill')){
   $(".conteiner_4").click(function(){
-    $(".conteiner_4").toggleClass("container_fill")
-    $(".square_4").toggleClass("fill")
-  })
+    $(".conteiner_4").toggleClass("space")
+    $(".square_2").toggleClass("space")
+
+
+  $(".conteiner_2").click(function(){
+   $(".conteiner_2").toggleClass("space")
+   $(".square_2").toggleClass("space")
+}
+
+
+
+
+
 
 $(".btn_dalee").click(function(){
   $(".setka").addClass("hidden")
