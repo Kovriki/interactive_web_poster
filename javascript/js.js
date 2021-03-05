@@ -35,14 +35,20 @@ $(document).ready(function(){
   $(".conteiner_2").click(function(){
     $(".conteiner_2").toggleClass("container_fill")
     $(".square_2").toggleClass("fill")
-    $(".conteiner_4").removeClass("container_fill")
-    $(".square_4").removeClass("fill")
+
+    setTimeout(function(){
+      $(".conteiner_4").removeClass("container_fill")
+      $(".square_4").removeClass("fill")
+    }, 300);
   })
   $(".conteiner_4").click(function(){
     $(".conteiner_4").toggleClass("container_fill")
     $(".square_4").toggleClass("fill")
-      $(".conteiner_2").removeClass("container_fill")
-      $(".square_2").removeClass("fill")
+
+    setTimeout(function(){
+    $(".conteiner_2").removeClass("container_fill")
+    $(".square_2").removeClass("fill")
+        }, 300);
   })
 
 
