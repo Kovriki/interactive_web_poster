@@ -47,10 +47,6 @@ $(document).ready(function(){
 
 
 
-
-
-
-
 $(".btn_dalee").click(function(){
   $(".setka").addClass("hidden")
   setTimeout(function(){
