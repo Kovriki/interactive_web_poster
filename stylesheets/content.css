@@ -41,7 +41,7 @@ position: relative;
 mask: url("https://raw.githubusercontent.com/Kovriki/interactive_web_poster/5190b4d7b114d723412d45c14437fcbe5aa4b717/images/info_icon.svg");
 background-color: white;
 mask-type: alpha;
-transition: .4s
+transition: .4s;
 }
 
 
