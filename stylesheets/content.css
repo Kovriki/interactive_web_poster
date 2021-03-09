@@ -36,7 +36,7 @@ top:10px;
 left: 20px;
 -webkit-mask: url("https://raw.githubusercontent.com/Kovriki/interactive_web_poster/5190b4d7b114d723412d45c14437fcbe5aa4b717/images/info_icon.svg");
 mask: url("https://raw.githubusercontent.com/Kovriki/interactive_web_poster/5190b4d7b114d723412d45c14437fcbe5aa4b717/images/info_icon.svg");
-background-color: white;
+background-color: black;
 mask-type: alpha;
 transition: .4s;
 -webkit-mask-repeat: no-repeat;
@@ -53,7 +53,7 @@ top: 5px;
 right: 20px;
 -webkit-mask: url("https://raw.githubusercontent.com/Kovriki/interactive_web_poster/e1f721771111b252e273ba383fb3986c68458f16/images/disco_icon.svg");
 mask: url("https://raw.githubusercontent.com/Kovriki/interactive_web_poster/e1f721771111b252e273ba383fb3986c68458f16/images/disco_icon.svg");
-background-color: white;
+background-color: black;
 mask-type: alpha;
 mask-repeat: no-repeat;
 box-sizing: border-box;
@@ -63,7 +63,12 @@ box-sizing: border-box;
 
 
 
-
+.begin .footer .inf_icon{
+  background-color: white;
+}
+.begin .footer .disco_icon{
+  background-color: white;
+}
 .begin{
 width: 100vw;
 height: 100%;
@@ -398,13 +403,6 @@ grid-template-columns: 18vw 25vw 14vw 25vw 18vw;
   background-color: white;
 }
 
-.footer_2p .footer .inf_icon, .disco_icon{
-  background-color: black;
-}
-
-
-
-
 .container_fill{
   border-right: 3px white;
   border-bottom: 3px white;
@@ -460,6 +458,25 @@ display: flex;
   border: 3px solid black;
   justify-content: center;
   margin: auto;
+}
+
+
+.dragg {
+  width: 100vw;
+  height: 100vh;
+
+  display: none;
+  transition: .2s;
+  background-color: white;
+}
+
+
+.final {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  transition: .2s;
+  background-color: white;
 }
 
 
