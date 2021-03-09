@@ -64,7 +64,50 @@ $(".btn_dalee").click(function(){
       $(".redactor").removeClass(" hidden");
       $(".redactor").removeClass(" blocker");
     }, 400);
-
 });
+/////
+$(".redactor .top_bar .btn_dalee").click(function(){
+  $(".redactor").addClass("hidden")
+  setTimeout(function(){
+    $(".redactor").addClass("blocker");
+    $(".redactor").css("display","none");
+    }, 300);
+
+    setTimeout(function(){
+      $(".dragg").removeClass(" hidden");
+      $(".dragg").removeClass(" blocker");
+    }, 400);
+
+
+          $(".dragg").css({"display":"grid",
+          "grid-template-rows": "6vw auto 6vw"
+        });
+});
+/////
+$(".dragg .top_bar .btn_dalee").click(function(){
+  $(".dragg").addClass("hidden")
+  setTimeout(function(){
+    $(".dragg").addClass("blocker");
+    $(".rdragg").css("display","none");
+    }, 300);
+
+    setTimeout(function(){
+      $(".final").removeClass(" hidden");
+      $(".final").removeClass(" blocker");
+    }, 400);
+
+
+          $(".dragg").css({"display":"none",
+          "grid-template-rows": "6vw auto 6vw"
+        });
+});
+
+
+
+
+
+
+
+
 
 })
