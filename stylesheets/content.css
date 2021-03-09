@@ -273,6 +273,8 @@ mask: url("https://raw.githubusercontent.com/Kovriki/interactive_web_poster/5190
 background-color: black;
 mask-type: alpha;
 transition: .4s
+-webkit-mask-size: contain;
+-webkit-mask-repeat: no-repeat;
 }
 .top_text{
   width: 20vw;
@@ -381,13 +383,24 @@ grid-template-columns: 18vw 25vw 14vw 25vw 18vw;
 
 .footer_2p{
   width: 100vw;
-  /* height: 100px; */
+  height:auto;
   border-top: solid 3px black;
   grid-area: 3/1/4/2;
   display: inline-grid;
-  /* grid-area: 1 */
   position: relative;
+  margin-bottom: 0;
 }
+.footer_2p .footer {
+  background-color: white;
+}
+
+.footer_2p .footer .inf_icon, .disco_icon{
+  background-color: black;
+}
+
+
+
+
 .container_fill{
   border-right: 3px white;
   border-bottom: 3px white;
