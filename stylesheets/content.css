@@ -7,36 +7,33 @@ html{
   /* background-color: black; */
 
 }
-
-.info {
-  width: 3vw;
-  height: 3vw;
-  background-color: white;
-
+.comments{
+  width: 50vw;
+  height:auto;
   position: absolute;
-  left: 2vw;
+  left: 70px;
+  top: 25px;
+  opacity: 0;
 
-  mask-type: alpha;
-  mask-size: no-repeat;
-
-
-  mask-type: alpha;
-      -webkit-mask: url("https://raw.githubusercontent.com/Kovriki/interactive_web_poster/e1f721771111b252e273ba383fb3986c68458f16/images/disco_icon.svg");
-      mask: url("https://raw.githubusercontent.com/Kovriki/interactive_web_poster/e1f721771111b252e273ba383fb3986c68458f16/images/disco_icon.svg");
-/*
-  -webkit-mask-image: url(https://raw.githubusercontent.com/Kovriki/interactive_web_poster/2a1dcc8b54ab0b3c49c348e5897e5a21c34135f3/images/info_icon.svg);
-  -webkit-mask-position:center;
-  -webkit-mask-size: contain;
-      -webkit-mask-type: luminance; */
-  /* -webkit-mask-type: alpha; */
-
-
+}
+.comments p{
+  font-family:OCRONEC;
+  font-size: 16px;
+  color: white;
+  padding-right: 10px;
+  transition: all .4s;
+}
+.inf_icon:hover ~ .comments{
+  opacity: 1;
+  transition: all .2;
 }
 .inf_icon {
   width: 40px;
   height: 40px;
 display: block;
 position: relative;
+top:10px;
+left: 20px;
 -webkit-mask: url("https://raw.githubusercontent.com/Kovriki/interactive_web_poster/5190b4d7b114d723412d45c14437fcbe5aa4b717/images/info_icon.svg");
 mask: url("https://raw.githubusercontent.com/Kovriki/interactive_web_poster/5190b4d7b114d723412d45c14437fcbe5aa4b717/images/info_icon.svg");
 background-color: white;
@@ -50,7 +47,8 @@ transition: .4s;
   height: 50px;
 display: block;
 position: absolute;
-right: 2vw;
+top: 5px;
+right: 20px;
 -webkit-mask: url("https://raw.githubusercontent.com/Kovriki/interactive_web_poster/e1f721771111b252e273ba383fb3986c68458f16/images/disco_icon.svg");
 mask: url("https://raw.githubusercontent.com/Kovriki/interactive_web_poster/e1f721771111b252e273ba383fb3986c68458f16/images/disco_icon.svg");
 background-color: white;
@@ -61,25 +59,6 @@ box-sizing: border-box;
 
 
 
-
-
-.disco {
-  width: 3vw;
-  height: 3vw;
-  background-color: white;
-
-  position: absolute;
-  right: 2vw;
-
-  mask-type: alpha;
-  mask-size: no-repeat;
-
-
-  -webkit-mask-image: url(https://raw.githubusercontent.com/Kovriki/interactive_web_poster/2a1dcc8b54ab0b3c49c348e5897e5a21c34135f3/images/disco_icon.svg);
-  -webkit-mask-position:center;
-  -webkit-mask-size: contain;
-    -webkit-mask-type: luminance;
-}
 
 .begin{
 width: 100vw;
@@ -177,6 +156,7 @@ background-color: white;
   height: 5vw;
   display: inline-grid;
   position: relative;
+  bottom: 0;
   grid-column-start: 1;
   grid-column-end: 11;
   vertical-align: middle;
@@ -225,20 +205,29 @@ background-color: white;
   width: 100vw;
   height: 6vw;
   border-bottom: solid 5px black;
-  display: inline-grid;
-  grid-area: 1 / 1 / 2 / 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: space-between;
+}
+.redactor .top_bar {
+
+    width: 100vw;
+    height: 6vw;
+    border-bottom: solid 5px black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
 }
 .btn_dalee{
   width: 20vw;
       height: 6vw;
       /* display: inline-grid; */
-      grid-area: 1/2/2/3;
+      /* grid-area: 1/2/2/3; */
       justify-content: center;
       display: flex;
       align-items: center;
       transition: all .4s;
-
+      margin-left: auto
 }
 .btn_dalee p {
   font-family:OCRONEC;
@@ -392,7 +381,7 @@ grid-template-columns: 18vw 25vw 14vw 25vw 18vw;
 
 .footer_2p{
   width: 100vw;
-  height: 100px;
+  /* height: 100px; */
   border-top: solid 3px black;
   grid-area: 3/1/4/2;
   display: inline-grid;
@@ -452,6 +441,8 @@ display: flex;
   width: 6vw;
   height: 6vw;
   border: 3px solid black;
+  justify-content: center;
+  margin: auto;
 }
 
 
