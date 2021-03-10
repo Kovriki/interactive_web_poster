@@ -458,6 +458,12 @@ display: flex;
   border: 3px solid black;
   justify-content: center;
   margin: auto;
+  border-top: none;
+}
+.circle{
+  width: 4.5vw;
+  height: 4.5vw;
+  
 }
 
 
