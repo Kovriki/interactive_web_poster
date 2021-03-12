@@ -14,6 +14,7 @@ html{
   left: 70px;
   top: 25px;
   opacity: 0;
+  transition: all .8s;
 
 }
 .comments p{
@@ -21,11 +22,12 @@ html{
   font-size: 16px;
   color: white;
   padding-right: 10px;
-  transition: all .4s;
+  transition: all .8s;
 }
+
 .inf_icon:hover ~ .comments{
   opacity: 1;
-  transition: all .2;
+  transition: all .4s;
 }
 .inf_icon {
   width: 40px;
@@ -463,7 +465,7 @@ display: flex;
 .circle{
   width: 4.5vw;
   height: 4.5vw;
-  
+
 }
 
 
