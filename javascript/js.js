@@ -51,7 +51,10 @@ $(document).ready(function(){
         }, 300);
   })
 
-
+if(  $(".conteiner_2, .conteiner_4 ").hasClass("container_fill")){
+  $('.btn_dalee').css({'background-color':'black',
+                        'color':'white'})
+}
 
 $(".btn_dalee").click(function(){
   $(".setka").addClass("hidden")
