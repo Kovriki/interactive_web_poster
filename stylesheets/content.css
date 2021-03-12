@@ -16,15 +16,21 @@ html{
   opacity: 0;
   transition: all .8s;
 
+  font-family:OCRONEC;
+  font-size: 16px;
+  color: white;
+  padding-right: 10px;
 }
-.comments p{
+/* .comments p{
   font-family:OCRONEC;
   font-size: 16px;
   color: white;
   padding-right: 10px;
   transition: all .8s;
+} */
+.black{
+  color: black;
 }
-
 .inf_icon:hover ~ .comments{
   opacity: 1;
   transition: all .4s;
