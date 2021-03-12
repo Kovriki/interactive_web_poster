@@ -255,7 +255,10 @@ background-color: white;
   padding-right: 10px;
   display: inline-grid;
   transition: all .4s;
-
+}
+.bg_black{
+  background-color: black;
+  color: white;
 }
 .btn_dalee:hover {
   background-color: black;
