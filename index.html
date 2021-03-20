@@ -3,12 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="javascript/jQuere.3.5.1.js"></script>
 <script src="javascript/js.js"></script>
-
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+$( function() {
+  $( "#draggable" ).draggable();
+} );
+</script>
 <!-- <script type="text/javascript">
 
 </script> -->
@@ -237,7 +246,14 @@
     </div>
   </div>
 
-  <div class="center_gap_3p"></div>
+  <div class="center_gap_3p">
+
+<div class="blue" id="draggable">
+
+</div>
+
+
+  </div>
 
 
   <div class="footer_2p">
