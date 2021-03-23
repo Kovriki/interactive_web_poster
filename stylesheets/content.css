@@ -471,14 +471,29 @@ display: flex;
   transition: .2s;
   background-color: white;
 }
-#draggable { width: 150px; height: 150px; padding: 0.5em; }
-
-
+#draggable {
+  width: 12vw;
+  height: 12vw;
+  box-sizing: border-box;
+  /* containment: ".center_gap_3p";
+  scroll: false ; */
+ }
+#draggable .redactor_div {
+  width: 12vw;
+  height: 12vw;
+  grid-template-columns: repeat(4, 3vw);
+  grid-template-rows: repeat(4, 3vw);
+}
+#draggable .red_square {
+  width: 3vw;
+  height: 3vw;
+}
 .blue{
   width: 100px;
   height: 100px;
   background-color: blue;
 }
+#containment-wrapper { width: 100%; height:100%; padding-top: 5px; }
 
 /* .arrow_mask:hover{
   background-color: white;
