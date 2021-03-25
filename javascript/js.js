@@ -88,10 +88,10 @@ $(".redactor .top_bar .btn_dalee").click(function(){
         });
 
         if ($(".conteiner_2").hasClass("container_fill")){
-          $('.conteiner_2').clone().appendTo('.redactor_div')
+          $('.conteiner_2').clone().appendTo('#redactor_id')
         }
         else {
-          $('.conteiner_4').clone().appendTo('.redactor_div');
+          $('.conteiner_4').clone().appendTo('#redactor_id');
 
         }
 
