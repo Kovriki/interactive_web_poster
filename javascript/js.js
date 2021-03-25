@@ -12,6 +12,9 @@ $(document).ready(function(){
     if (rotate == 360){rotate = 0};
   });
 
+$('.disco_icon').click(function(){
+  $(document).css({'background-color':'green'})
+})
 
   // if (eq1 && eq4) {
   //         $('#img3').css('opacity', '1');
