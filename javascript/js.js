@@ -12,9 +12,27 @@ $(document).ready(function(){
     if (rotate == 360){rotate = 0};
   });
 
-$('.disco_icon').click(function(){
-  $(document).css({'background-color':'green'})
-})
+// $('.disco_icon').click(function(){
+//   $(document).css({'background-color':'green'})
+// })
+//
+//
+
+
+$(".disco_icon").click(function (){
+let bgColor= ["#00FF00", "#FF1493", "#0000FF","#2F4F4F","#87CEEB","#F0FFFF","ffffff"];
+let ranColor = bgColor[Math.floor(Math.random()*bgColor.length)];
+$(".disco_icon").click(function(i,val){
+  $('.begin, .setka, .redactor, .dragg, .final, .square_2, .square_4, .footer').css("background-color",ranColor);
+  $('.head p, .btn_dalee:hover > p, .btn_dalee:hover > arrow_mask').css('color',ranColor)
+  })
+});
+
+
+
+
+
+
 
   // if (eq1 && eq4) {
   //         $('#img3').css('opacity', '1');
@@ -55,10 +73,7 @@ $('.disco_icon').click(function(){
         }, 300);
   })
 
-if ($(".conteiner_2, .conteiner_4 ").hasClass("container_fill")){
-  $('.btn_dalee').css({'background-color':'black',
-                        'color':'white'})
-}
+
 
 $(".btn_dalee").click(function(){
   $(".setka").addClass("hidden")
@@ -72,6 +87,11 @@ $(".btn_dalee").click(function(){
       $(".redactor").removeClass(" blocker");
     }, 400);
 });
+
+if ($(".conteiner_2, .conteiner_4 ").hasClass("container_fill")){
+  $('.btn_dalee').css({'background-color':'black',
+                        'color':'white'})
+}
 /////
 $(".redactor .top_bar .btn_dalee").click(function(){
   $(".redactor").addClass("hidden")
