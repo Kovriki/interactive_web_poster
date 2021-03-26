@@ -47,6 +47,7 @@ transition: .4s;
 
 
 .disco_icon {
+      cursor: pointer;
   width: 40px;
   height: 50px;
 display: block;
