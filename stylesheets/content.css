@@ -421,7 +421,16 @@ vertical-align: middle;
 justify-content: center;
 display: flex;
 }
-
+.photo{
+  width: 100vw;
+  height: auto;
+  background-image: url(../images/photo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left:0;
+}
 
 .redactor_div {
   width: 40vw;
