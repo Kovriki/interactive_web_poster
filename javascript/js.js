@@ -75,7 +75,7 @@ $(".disco_icon").click(function(i,val){
 
 
 
-$(".btn_dalee").click(function(){
+$("#btn_1").click(function(){
   $(".setka").addClass("hidden")
   setTimeout(function(){
     $(".setka").addClass("blocker");
@@ -86,6 +86,16 @@ $(".btn_dalee").click(function(){
       $(".redactor").removeClass(" hidden");
       $(".redactor").removeClass(" blocker");
     }, 400);
+
+    setTimeout(function(){
+      if ($(".conteiner_2").hasClass("container_fill")){
+        $('.conteiner_2').clone().appendTo('#redactor_id')
+      }
+      else {
+        $('.conteiner_4').clone().appendTo('#redactor_id');
+
+      }
+    }, 500);
 });
 
 if ($(".conteiner_2, .conteiner_4 ").hasClass("container_fill")){
