@@ -27,7 +27,35 @@
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   /* промежуток */
+  p, .btn_dalee p{
+    font-size: 18px;
+  }
+  .setka .center_gap {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .2fr .8fr .2fr .8fr .2fr;
+    align-items: center;
+    justify-items: center;
+  }
+  .setka .conteiner_2 {
+    grid-area: 2/2/3/3;
+  }
+  .setka .conteiner_4 {
+    grid-area: 4/2/5/3;
+  }
+  .setka .center_gap p {
 
+  }
+  #p2{
+    grid-area: 3/2/4/3
+    justify-items: center;
+
+  }
+  #p4{
+    grid-area: 5/2/6/3
+  }
+  .top_text {
+    width: 50vw;
+  }
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
