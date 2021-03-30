@@ -1,0 +1,52 @@
+@media only screen and (min-width: 1920px)  {
+  /* HD*/
+
+
+}
+@media only screen and (min-width: 1680px) and (max-width: 1920px) {
+  /* MacBook Pro 2020 15"*/
+
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1680px) {
+  /* MacBook Pro 2020*/
+
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+  /* Macbook Air 11.6" */
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* iPad Portrait */
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  /* промежуток */
+
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
+  /* iPhone X */
+
+}
+
+
+@media only screen  and (max-device-width: 375px)  {
+  /* iPhone SE */
+
+}
+
+
+/*
+1680x1050 (MacBook Pro ’15.4)
+
+1440x900 (MacBook Pro ’15)
+
+1366x768 (MacBook Air ’11.6)
+
+1280x800 (MacBook Pro ’13)*/
