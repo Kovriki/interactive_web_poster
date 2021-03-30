@@ -1,11 +1,18 @@
 .head p{
 padding-top: 2vw;
 padding-left: 3vw;
-
 }
 html{
-  /* background-color: black; */
 
+  /* background-color: black; */
+}
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+   overflow: hidden;
 }
 .comments{
   width: 50vw;
@@ -65,7 +72,6 @@ box-sizing: border-box;
 }
 
 
-
 .begin .footer .inf_icon{
   background-color: white;
 }
@@ -73,8 +79,9 @@ box-sizing: border-box;
   background-color: white;
 }
 .begin{
-width: 100vw;
-height: 100%;
+/* width: 100vw;
+height: 100%; */
+
 display: grid;
 grid-template-columns: repeat(10, 1fr);
 /* grid-template-rows:  repeat(5, 1fr); */
