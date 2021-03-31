@@ -73,6 +73,19 @@ $(".disco_icon").click(function(i,val){
         }, 300);
   })
 
+  $('#btn_1').click(function(){
+    $('.container_2 .container_fill').css('display','grid')
+    // if ($(".container_2").hasClass("container_fill")){
+    //   $('.redactor_div_2').css('display','grid');
+    // } else   {
+    //   $('.redactor_div').css('display','grid');
+    // }
+
+  //   if ($(".container_4").hasClass("container_fill")){
+  //     $('.redactor_div').css('display','grid')
+  //   }
+  })
+
 
 
 $("#btn_1").click(function(){
@@ -152,9 +165,7 @@ $(".dragg .top_bar .btn_dalee").click(function(){
 });
 
 
-
-
-
+////
 
 
 
