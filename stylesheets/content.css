@@ -483,7 +483,7 @@ transition: .4s;
   width: 20vw;
   height: 20vw;
   display:inline-grid;
-  border-radius: 0 0 0 10vw;
+  border-radius: 0 0 0 20vw;
   background-color: black;
 }
 .red_square{
