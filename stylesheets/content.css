@@ -271,6 +271,7 @@ background-color: white;
   color: white;
 }
 .btn_dalee:hover {
+  cursor: 
   background-color: black;
   transition: all .1s;
 }
