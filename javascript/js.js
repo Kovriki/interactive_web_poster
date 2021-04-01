@@ -74,7 +74,7 @@ $(".disco_icon").click(function(i,val){
   })
 
   $('#btn_1').click(function(){
-    $('.container_2 .container_fill').css('display','grid')
+    // $('.container_2 .container_fill').css('display','grid')
     if ($(".container_2").hasClass("container_fill")){
       $('.redactor_div_2').css('display','grid');
     } else   {
