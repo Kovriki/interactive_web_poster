@@ -180,6 +180,9 @@
   .red_square{
     display:inline-grid!important;
   }
+  #import {
+    display: grid !important;
+  }
 }
 /*
 1680x1050 (MacBook Pro ’15.4)
