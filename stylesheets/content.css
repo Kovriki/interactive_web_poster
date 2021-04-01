@@ -446,7 +446,6 @@ transition: .4s;
   width: 100%;
   height: auto;
   display: flex;
-  width: 100vw;
   height: calc(100vh - 170px);
   /* background-image: url(../images/photo.svg); */
   background-position: center;
@@ -501,7 +500,7 @@ body .dragg{
   grid-template-columns: repeat(2, 20vw);
   grid-template-rows: repeat(2, 20vw);
   border: solid 3px black;
-  background-color: #fff;
+  /* background-color: #fff; */
   /* margin-top: 35px; */
 
 }
