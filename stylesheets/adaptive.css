@@ -32,7 +32,7 @@
   }
   .setka .center_gap {
     width: 100vw;
-    height: calc(100vh - 12vw);
+    height: calc(100vh - 170px);
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: .2fr .8fr .2fr .8fr .2fr;
     align-items: center;
