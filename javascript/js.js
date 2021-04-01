@@ -44,11 +44,12 @@ $(".disco_icon").click(function(i,val){
   //         $('#img3').css('opacity', '1');
 
   $(".btn").click(function(){
-    $(".begin").addClass("hidden")
+    $(".begin").addClass("hidden !important")
     setTimeout(function(){
-      $(".begin").addClass("blocker");
+      // $(".begin").addClass("blocker !important");
+      // }, 300);
+      $(".begin").css("display","none !important");
       }, 300);
-
       setTimeout(function(){
         $(".setka").removeClass("blocker, hidden");
       }, 400);
