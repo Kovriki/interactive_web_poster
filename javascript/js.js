@@ -132,14 +132,14 @@ $(".redactor .top_bar .btn_dalee").click(function(){
           $(".dragg").css({"display":"grid",
           "grid-template-rows": "6vw auto 6vw"
         });
-
-        if ($(".conteiner_2").hasClass("container_fill")){
-          $('.conteiner_2').clone().appendTo('#redactor_id')
-        }
-        else {
-          $('.conteiner_4').clone().appendTo('#redactor_id');
-
-        }
+        //
+        // if ($(".conteiner_2").hasClass("container_fill")){
+        //   $('.conteiner_2').clone().appendTo('#redactor_id')
+        // }
+        // else {
+        //   $('.conteiner_4').clone().appendTo('#redactor_id');
+        //
+        // }
 
 
         $('.redactor_div').clone().appendTo('#draggable');
