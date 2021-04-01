@@ -146,7 +146,7 @@ $(".redactor .top_bar .btn_dalee").click(function(){
         $( "#draggable" ).draggable({ containment: "#containment-wrapper", scroll: false })
 });
 /////
-$('.center_gap_4p').clone().appendTo('#portable_2');
+// $('.redactor_div').clone().appendTo('#portable_2');
 
 //
 $(".dragg .top_bar .btn_dalee").click(function(){
