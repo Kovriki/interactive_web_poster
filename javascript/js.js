@@ -166,7 +166,23 @@ $(".dragg .top_bar .btn_dalee").click(function(){
           "grid-template-rows": "6vw auto 6vw"
         });
 });
+$(".final .top_bar .btn_dalee").click(function(){
+  $(".final").addClass("hidden")
+  setTimeout(function(){
+    $(".final").addClass("blocker");
+    $(".final").css("display","none");
+    }, 300);
 
+    setTimeout(function(){
+      $(".begin").removeClass(" hidden");
+      $(".begin").removeClass(" blocker");
+    }, 400);
+
+
+          $(".final").css({"display":"none",
+          "grid-template-rows": "6vw auto 6vw"
+        });
+});
 
 ////
 
