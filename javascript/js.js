@@ -142,7 +142,7 @@ $(".redactor .top_bar .btn_dalee").click(function(){
         // }
 
 
-        $('#redactor_id').clone().appendTo('#draggable');
+        $('#import').clone().appendTo('#draggable');
         $( "#draggable" ).draggable({ containment: "#containment-wrapper", scroll: false })
 });
 /////
@@ -166,6 +166,10 @@ $(".dragg .top_bar .btn_dalee").click(function(){
           "grid-template-rows": "6vw auto 6vw"
         });
 });
+
+$('#import_last').clone().appendTo('.last_photo');
+
+
 $(".final .top_bar .btn_dalee").click(function(){
   $(".final").addClass("hidden")
   setTimeout(function(){
