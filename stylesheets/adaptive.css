@@ -171,11 +171,10 @@
 
 @media print {
   *{
-    display: none!important;
+    display: none;
   }
   .redactor_div{
     display: grid!important;
-
   }
   .red_square{
     display:inline-grid!important;
