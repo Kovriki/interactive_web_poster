@@ -27,6 +27,7 @@
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   /* промежуток */
+
   p, .btn_dalee p{
     font-size: 18px;
   }
@@ -82,6 +83,62 @@
 @media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
   /* iPhone X */
 
+.begin{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(10,1fr);
+}
+  p, .btn_dalee p{
+    font-size: 18px;
+  }
+  .setka .center_gap {
+    width: 100vw;
+    height: calc(100vh - 170px);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .2fr .8fr .2fr .8fr .2fr;
+    align-items: center;
+    justify-items: center;
+  }
+  .setka .conteiner_2 {
+    width: 30vw;
+    height: 30vw;
+    grid-area: 2/2/3/3;
+    grid-template-columns: 15vw 15vw;
+    grid-template-rows: 15vw 15vw;
+  }
+  .setka .conteiner_4 {
+    width: 30vw;
+    height: 30vw;
+    grid-template-columns: 7.25vw 7.25vw 7.25vw 7.25vw;
+    grid-template-rows: 7.25vw 7.25vw 7.25vw 7.25vw;
+    grid-area: 4/2/5/3;
+  }
+  .setka .conteiner_2 .square_2{
+    width: 15vw;
+    height: 15vw;
+
+        /* outline: solid 3px black; */
+  }
+  .setka .conteiner_4 .square_4{
+    width: 7.5vw;
+    height: 7.5vw;
+        /* outline: solid 3px black; */
+  }
+  .setka .center_gap p {
+
+  }
+  #p2{
+    grid-area: 3/2/4/3
+    justify-items: center;
+
+  }
+  #p4{
+    grid-area: 5/2/6/3
+  }
+  .top_text {
+    width: 50vw;
+  }
+}
 }
 
 
