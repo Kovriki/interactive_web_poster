@@ -5,7 +5,7 @@
 
 $(document).ready(function(){
   let rotate = 0;
-  $(".quater, .red_square").click(function(){
+  $(".quater, .red_square, .red_square_2").click(function(){
     rotate += 90;
   $(this).css({"transform": "rotate("+rotate+"deg)"
     });
@@ -75,7 +75,7 @@ $(".disco_icon").click(function(i,val){
 
   $('#btn_1').click(function(){
     // $('.container_2 .container_fill').css('display','grid')
-    if ($(".container_2").hasClass("container_fill")){
+    if ($(".conteiner_2").hasClass("container_fill")){
       $('.redactor_div_2').css('display','grid');
     } else   {
       $('.redactor_div').css('display','grid');
@@ -142,7 +142,7 @@ $(".redactor .top_bar .btn_dalee").click(function(){
         // }
 
 
-        $('.redactor_div').clone().appendTo('#draggable');
+        $('#redactor_id').clone().appendTo('#draggable');
         $( "#draggable" ).draggable({ containment: "#containment-wrapper", scroll: false })
 });
 /////
