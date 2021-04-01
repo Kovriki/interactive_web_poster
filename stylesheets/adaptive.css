@@ -86,7 +86,28 @@
 .begin{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(10,1fr);
+  /* grid-template-rows: repeat(10,1fr); */
+  grid-template-rows: auto;
+}
+.head{
+  grid-area: 1/1/3/7;
+}
+.small_box{
+  display: none;
+}
+.big {
+  display: none;
+}
+/* .quater .big .b_1{
+  display:none;
+} */
+.quarter{
+  width: 16,6vw;
+  height: 16,6vw;
+}
+.small{
+  width: 8.3vw;
+  height: 8.3vw;
 }
   p, .btn_dalee p{
     font-size: 18px;
