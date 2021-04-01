@@ -29,6 +29,12 @@ $(".disco_icon").click(function(i,val){
 });
 
 
+// let bgPosition= ["90", "180", "270","0"];
+// let ranPos = bgPosition[Math.floor(Math.random()*bgPosition.length)];
+//
+//   $('.quater').css("transform": "rotate(ranPos)");
+
+
 
 
 
