@@ -574,7 +574,8 @@ body .dragg{
   height: 100px;
   /* background-color: blue; */
 }
-#containment-wrapper { width: 100vw; height:100%; padding-top: 5px; }
+#containment-wrapper {
+  width: 100vw; height:100%; padding-top: 5px; }
 .s_p_btn {
   width: 25vw;
   height: 8vw;
@@ -638,6 +639,7 @@ body .dragg{
     display: inline-grid;
     grid-area: 2/4/3/5;
   }
+  #import{}
 /* .box {
   width: 100%;
   height: 100%;
