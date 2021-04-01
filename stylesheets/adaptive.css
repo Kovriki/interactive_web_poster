@@ -16,7 +16,64 @@
 
 @media only screen and (min-width: 1024px) and (max-width: 1400px) {
   /* Macbook Air 11.6" */
+  .begin{
+    height:100vh;
+    width: 100vw;
+    display: grid;
+    /* grid-template: repeat(5, 11.1vw); */
+    grid-template-columns: repeat(8,12.5vw);
+    grid-template-rows: repeat(6,12.5vw);
+    overflow:hidden;
+  }
+  .quater{
+    width: 100%;
+    height: 100%;
+    border-radius: 100% 0 0 0;
+    display:inline-block;
+  }
+  .head{
+    /* width: 100%; */
+    height: 100%;
+    grid-area: 1/1/2/7;
 
+  }
+  .small_box{
+    width: 12.5vw;
+    height: 12.5vw;
+    grid-template-columns: 6.25vw 6.25vw;
+    grid-template-rows: auto;
+  }
+  .small_box_1{
+    width: 12.5vw;
+    height: 12.5vw;
+    grid-template-columns: 6.25vw 6.25vw;
+    grid-template-rows: auto;
+  }
+  .small{
+    width: 6.25vw;
+    height: 6.25vw;
+  }
+  .b_1,.b_2 {
+    display: none;
+  }
+  .transperent{
+    display: none;
+  }
+  .footer {
+    width: 100vw;
+    background-color: black;
+    height: 85px;
+    display: grid;
+    grid-template-columns: 1fr 12fr 1fr;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    vertical-align: middle;
 }
 
 
@@ -27,6 +84,8 @@
     width: 100vw;
     display: grid;
     grid-template: repeat(5, 20%);
+    /* grid-template-columns: repeat(8,12.5vw);
+    grid-template-rows: repeat(6,12.5vw); */
     overflow:hidden;
   }
   .head{
@@ -314,7 +373,7 @@
   .setka .center_gap {
     width: 100vw;
     height: calc(100vh - 170px);
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: .2fr .8fr .2fr .8fr .2fr;
     align-items: center;
     justify-items: center;
@@ -331,7 +390,13 @@
     height: 30vw;
     grid-template-columns: 7.25vw 7.25vw 7.25vw 7.25vw;
     grid-template-rows: 7.25vw 7.25vw 7.25vw 7.25vw;
-    grid-area: 4/2/5/3;
+    grid-area: 4/ 2 / 5 /3;
+  }
+  #p2{
+    grid-area: 3/2/4/3;
+  }
+  #p4{
+    grid-area: 5/2/6/3;
   }
   .setka .conteiner_2 .square_2{
     width: 15vw;
