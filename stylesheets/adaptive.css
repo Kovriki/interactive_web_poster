@@ -169,20 +169,33 @@
 
 }
 
-/* @media print {
-  *{
+@media print {
+  /* *{
     display: none;
-  }
+  } */
   .redactor_div{
+    -webkit-filter: invert(100%);
     display: grid!important;
+    background-color: white;
+
+  }
+  .quater{
+    display:block;
+    width: 25%;
+    height: 25%;
+     -webkit-filter: invert(100%);
   }
   .red_square{
+    -webkit-filter: invert(0%);
+    background-color: white;
+    /* width: 25%;
+    height: 25%; */
     display:inline-grid!important;
   }
-  #import {
-    display: grid !important;
+  .top_bar, .p_p_btn, .footer_2p{
+    display: none;
   }
-} */
+}
 /*
 1680x1050 (MacBook Pro ’15.4)
 
