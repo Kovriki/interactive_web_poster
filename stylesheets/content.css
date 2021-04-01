@@ -629,7 +629,8 @@ body .dragg{
   height: 40vw;
   overflow: hidden;
   display: inline-grid;
-      grid-area: 1/1/3/3;
+  margin-top: 20px;
+      grid-area: 1/2/3/3;
   /* column-st */
 }
 #portable_2 {}
@@ -640,6 +641,10 @@ body .dragg{
     grid-area: 2/4/3/5;
   }
   #import{}
+.last_photo .redactor_div{
+  margin: 0;
+  border: 0;
+}
 /* .box {
   width: 100%;
   height: 100%;
