@@ -38,6 +38,9 @@ body{
   opacity: 1;
   transition: all .4s;
 }
+.footer_2p .inf_icon{
+  /* top:10px; */
+}
 .inf_icon {
   width: 40px;
   height: 40px;
@@ -404,6 +407,8 @@ transition: .4s;
   position: absolute;
   bottom: 0;
   margin-bottom: 0;
+  background-color: white;
+
 }
 .footer_2p .footer {
   background-color: white;
@@ -438,7 +443,7 @@ transition: .4s;
 
 }
 .center_gap_3p{
-  width: 100vw;
+  width: 100%;
   height: auto;
   display: flex;
   width: 100vw;
@@ -569,7 +574,7 @@ body .dragg{
   height: 100px;
   /* background-color: blue; */
 }
-#containment-wrapper { width: 100%; height:100%; padding-top: 5px; }
+#containment-wrapper { width: 100vw; height:100%; padding-top: 5px; }
 .s_p_btn {
   width: 25vw;
   height: 8vw;
