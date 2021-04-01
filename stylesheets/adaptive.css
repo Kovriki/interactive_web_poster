@@ -90,7 +90,18 @@
 
 }
 
+@media print {
+  *{
+    display: none!important;
+  }
+  .redactor_div{
+    display: grid!important;
 
+  }
+  .red_square{
+    display:inline-grid!important;
+  }
+}
 /*
 1680x1050 (MacBook Pro ’15.4)
 
