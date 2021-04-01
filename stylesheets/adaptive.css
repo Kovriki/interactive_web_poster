@@ -80,13 +80,13 @@
   }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 370px) and (max-device-width: 480px) {
   /* iPhone X */
 
 .begin{
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  /* grid-template-rows: repeat(10,1fr); */
+  grid-template-columns: repeat(6, 16.6vw);
+  grid-template-rows: repeat(10, 16.6vw);
   grid-template-rows: auto;
 }
 .head{
@@ -95,6 +95,7 @@
 .small_box{
   display: none;
 }
+.
 .big {
   display: none;
 }
