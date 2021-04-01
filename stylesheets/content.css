@@ -245,7 +245,6 @@ background-color: white;
 }
 .btn_dalee{
   width: 25vw;
-  */: ;
   height: 85px;
   justify-content: flex-end;
   display: flex;
@@ -259,7 +258,8 @@ background-color: white;
     cursor: pointer;
 }
 .btn_dalee p {
-  pointer-events: none;
+  /* pointer-events: none; */
+  cursor: pointer;
   font-family:OCRONEC;
   font-size: 30px;
   color: black;
@@ -269,7 +269,6 @@ background-color: white;
   display: inline-grid;
   transition: all .4s;
   /* cursor: url("../images/arrow.png"), auto; */
-  cursor: pointer;
 }
 .bg_black{
   background-color: black;
@@ -300,6 +299,7 @@ background-color: white;
 
 
 .arrow_mask {
+  cursor: poiner;
 width: 5vw;
 height: 4vw;
 display: block;
