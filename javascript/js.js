@@ -23,7 +23,7 @@ $(".disco_icon").click(function (){
 let bgColor= ["#00FF00", "#FF1493", "#0000FF","#2F4F4F","#87CEEB","#F0FFFF"];
 let ranColor = bgColor[Math.floor(Math.random()*bgColor.length)];
 $(".disco_icon").click(function(i,val){
-  $('.begin, .setka, .redactor, .dragg, .final, .square_2, .square_4, .footer, .top_bar, .redactor_div, .redactor_div, .btn_dalee:hover > p, .red_square_2').css("background-color",ranColor);
+  $('.begin, .setka, .redactor, .dragg, .final, .square_2, .square_4, .footer, .top_bar, .redactor_div, .redactor_div, .btn_dalee:hover > p').css("background-color",ranColor);
   $('.head p, .btn_dalee:hover > p, .btn_dalee:hover > arrow_mask').css('color',ranColor)
   })
 });
