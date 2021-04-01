@@ -14,7 +14,7 @@ body{
   position: relative;
    overflow: hidden;
     font-family:OCRONEC;
-    cursor: url('../images/cursor.png');
+    cursor: url('https://github.com/Kovriki/interactive_web_poster/blob/main/images/arrow.png?raw=true'), auto;
 }
 .comments{
   width: 50vw;
