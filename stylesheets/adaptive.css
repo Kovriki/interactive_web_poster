@@ -81,6 +81,10 @@
 .transperent{
   display: none;
 }
+p, .btn_dalee p{
+  font-size: 20px;
+  padding-top: 15px;
+}
 
 }
 
@@ -213,7 +217,10 @@ grid-area: 3/3/4/6;
     }
 
 
-
+    p, .btn_dalee p{
+      font-size: 20px;
+      /* padding-top: 15px; */
+    }
 
 
 
