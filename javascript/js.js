@@ -44,11 +44,11 @@ $(".disco_icon").click(function(i,val){
   //         $('#img3').css('opacity', '1');
 
   $(".btn").click(function(){
-    $(".begin").addClass("hidden !important")
+    $(".begin").addClass("hidden")
     setTimeout(function(){
       // $(".begin").addClass("blocker !important");
       // }, 300);
-      $(".begin").css("display","none !important");
+      $(".begin").addClass("none");
       }, 300);
       setTimeout(function(){
         $(".setka").removeClass("blocker, hidden");
@@ -186,7 +186,7 @@ $(".final .top_bar .btn_dalee").click(function(){
 
     setTimeout(function(){
       $(".begin").removeClass(" hidden");
-      $(".begin").removeClass(" blocker");
+      $(".begin").removeClass(" blocker, none");
     }, 400);
 
 
