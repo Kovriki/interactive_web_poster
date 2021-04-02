@@ -42,6 +42,7 @@ body{
   /* top:10px; */
 }
 .inf_icon {
+  cursor: pointer;
   width: 40px;
   height: 40px;
 display: block;
@@ -333,6 +334,7 @@ transition: .4s;
   align-items: center;
 }
 .conteiner_2 {
+  cursor: pointer;
   width: 25vw;
   height: 25vw;
   display: grid;
@@ -354,6 +356,7 @@ transition: .4s;
 }
 
 .conteiner_4 {
+  cursor: pointer;
   width: 25vw;
   height: 25vw;
   display: grid;
