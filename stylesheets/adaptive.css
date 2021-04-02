@@ -326,11 +326,9 @@ grid-area: 3/3/4/6;
     transition: .4/
   }
     p, .btn_dalee p{
-      font-size: 30px;
+      font-size: 18px;
     }
-  p, .btn_dalee p{
-    font-size:30px;
-  }
+
   .setka .center_gap {
     width: 100vw;
     height: calc(100vh - 170px);
