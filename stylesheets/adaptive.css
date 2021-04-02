@@ -326,9 +326,11 @@ grid-area: 3/3/5/5;
   }
     p, .btn_dalee p{
       font-size: 18px;
+      padding-top: 15px;
     }
 .cpmments p{
   font-size: 18px;
+  padding-left: 20px;
 }
   .setka .center_gap {
     width: 100vw;
