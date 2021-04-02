@@ -490,7 +490,7 @@ body .dragg{
   grid-template-rows: repeat(4, 10vw);
   border: solid 3px black;
   background-color: #fff;
-  margin-top: 35px;
+  margin-top: 15px;
 }
 .redactor_div_2{
   width: 40vw;
